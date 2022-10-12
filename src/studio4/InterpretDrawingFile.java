@@ -21,7 +21,7 @@ public class InterpretDrawingFile {
 		Scanner in = new Scanner(f); // making Scanner with a File
 
 		String shapeType = in.next();
-				
+
 		int redComponent = in.nextInt();
 		int greenComponent = in.nextInt();
 		int blueComponent = in.nextInt();
