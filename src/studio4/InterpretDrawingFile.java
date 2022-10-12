@@ -34,10 +34,13 @@ public class InterpretDrawingFile {
 		double halfWidth = in.nextDouble();
 		double halfHeight = in.nextDouble();
 
+		if (shapeType == "rectangle") {
 		if (isFilled == true) {
 			StdDraw.filledRectangle(x, y, halfWidth, halfHeight);
 		} else {
 			StdDraw.rectangle(x, y, halfWidth, halfHeight);
 		}
+		}	
+		
 	}
 }
